@@ -1,0 +1,63 @@
+#social{
+  position: absolute;
+  right:1em;
+  bottom:1em;
+
+}
+.social {
+  background-image: url(images/social-icons.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  &:hover{
+    margin-bottom:1px;
+  }
+
+}
+
+.social-facebook {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+
+.social-googleplus {
+  width: 32px;
+  height: 32px;
+  background-position: -32px 0;
+}
+
+.social-instagram {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -32px;
+}
+
+.social-linkedin {
+  width: 32px;
+  height: 32px;
+  background-position: -32px -32px;
+}
+
+.social-pinterest {
+  width: 32px;
+  height: 32px;
+  background-position: -64px 0;
+}
+
+.social-twitter {
+  width: 32px;
+  height: 32px;
+  background-position: -64px -32px;
+}
+
+.social-vimeo {
+  width: 32px;
+  height: 32px;
+  background-position: 0 -64px;
+}
+
+.social-youtube {
+  width: 32px;
+  height: 32px;
+  background-position: -32px -64px;
+}

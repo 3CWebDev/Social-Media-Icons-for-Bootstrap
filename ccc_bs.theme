@@ -1,0 +1,25 @@
+<?php
+
+/**
+ * @file
+ * Bootstrap sub-theme.
+ *
+ * Place your custom PHP code in this file.
+ */
+
+/**
+ * Implements hook_preprocess_page().
+ *
+ * Set social media variables for use in theme Twig template
+ */
+function ccc_bs_preprocess_page(&$variables) {
+
+  $variables['facebook']    = theme_get_setting('facebook');
+  $variables['twitter']     = theme_get_setting('twitter');
+  $variables['youtube']     = theme_get_setting('youtube');
+  $variables['googleplus']  = theme_get_setting('googleplus');
+  $variables['linkedin']    = theme_get_setting('linkedin');
+  $variables['pinterest']   = theme_get_setting('pinterest');
+  $variables['instagram']   = theme_get_setting('instagram');
+  $variables['vimeo']   = theme_get_setting('vimeo');
+}

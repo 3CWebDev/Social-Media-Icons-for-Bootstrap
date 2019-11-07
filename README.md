@@ -8,7 +8,7 @@ Create or update the <strong>theme-settings.php</strong> file in your theme's ro
 
 Add <strong>HOOK_form_system_theme_settings_alter()</strong>, where HOOK is the name of your theme.
 
-<a href="https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Render%21theme.api.php/function/hook_form_system_theme_settings_alter/8.2.x">more info for function hook_form_system_theme_settings_alter() on api.drupal.org</a>
+&rarr; <a href="https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Render%21theme.api.php/function/hook_form_system_theme_settings_alter/8.2.x">more info for function hook_form_system_theme_settings_alter() on api.drupal.org</a>
 
 Add required form fields to function. <a href="https://api.drupal.org/api/drupal/developer%21topics%21forms_api_reference.html/7.x">Use Drupal Form API (FAPI) for field specs</a>.
 
@@ -24,6 +24,6 @@ Add or update the <strong>THEME_NAME.theme</strong> file in your theme's root di
 
 Add or update the function <strong>THEME_NAME_preprocess_page(&$variables)</strong> where THEME_NAME is the name of your theme.
 
-<a href="https://api.drupal.org/api/drupal/core%21includes%21theme.inc/function/template_preprocess_page/8.2.x">more info for function hook_form_system_theme_settings_alter() on api.drupal.org</a>
+&rarr; <a href="https://api.drupal.org/api/drupal/core%21includes%21theme.inc/function/template_preprocess_page/8.2.x">more info for function hook_form_system_theme_settings_alter() on api.drupal.org</a>
 
 ## Step 3

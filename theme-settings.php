@@ -31,12 +31,7 @@ function ccc_bs_form_system_theme_settings_alter(array &$form, FormStateInterfac
       '#type' => 'textfield',
       '#title' => t('YouTube URL'),
       '#default_value' => theme_get_setting('youtube'),
-  ];
-  $form['social_options_settings']['googleplus'] = [
-      '#type' => 'textfield',
-      '#title' => t('Google Plus URL'),
-      '#default_value' => theme_get_setting('googleplus'),
-  ];
+  ];  
   $form['social_options_settings']['linkedin'] = [
       '#type' => 'textfield',
       '#title' => t('LinkedIn URL'),

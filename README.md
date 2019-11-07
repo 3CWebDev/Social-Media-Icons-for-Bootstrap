@@ -12,6 +12,10 @@ Add <strong>HOOK_form_system_theme_settings_alter()</strong>, where HOOK is the 
 
 Add required form fields to function. <a href="https://api.drupal.org/api/drupal/developer%21topics%21forms_api_reference.html/7.x">Use Drupal Form API (FAPI) for field specs</a>.
 
+IMPORTANT: Be sure to and the 'use' for the following class to your theme-settings.php file
+
+<code>use Drupal\Core\Form\FormStateInterface;</code>
+
 ## Step 2
 
 ## Step 3

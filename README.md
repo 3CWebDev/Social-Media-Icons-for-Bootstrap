@@ -32,7 +32,11 @@ Now let's do something cool with the variables!
 
 Look at the attached page.html.twig file for an example of how to dynamically output the social media links.
 
+The attached example used Font Awesome fonts for rendering the icons. You can use images (sprites) or any other method that you'd like.
+
 ## Step 4 - Theme the output as needed :)
+
+The attached <strong>_social.scss</strong> file and rendedered (<strong>social.css</strong>) files are examples of theming the icon output.
 
 
 

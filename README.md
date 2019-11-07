@@ -30,6 +30,7 @@ Add or update the function <strong>THEME_NAME_preprocess_page(&$variables)</stro
 
 Now let's do something cool with the variables!
 
+Look at the attached page.html.twig file for an example of how to dynamically output the social media links.
 
 
 

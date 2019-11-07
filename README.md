@@ -2,7 +2,7 @@
 
 These instructions will help with setting up configuration options in the theme admin section of your theme. Always be sure to use a custom or sub theme, never make changes to a contrib.
 
-## Step 1 (theme-settings.php)
+## Step 1 - theme-settings.php
 
 Create or update the <strong>theme-settings.php</strong> file in your theme's root directory.
 
@@ -16,7 +16,7 @@ IMPORTANT: Be sure to and the 'use' for the following class to your theme-settin
 
 <code>use Drupal\Core\Form\FormStateInterface;</code>
 
-## Step 2 (THEME_NAME.theme)
+## Step 2 - THEME_NAME.theme
 
 Now we want to pulling theme settings we just created and set some variable values.
 
@@ -26,4 +26,9 @@ Add or update the function <strong>THEME_NAME_preprocess_page(&$variables)</stro
 
 &rarr; <a href="https://api.drupal.org/api/drupal/core%21includes%21theme.inc/function/template_preprocess_page/8.2.x">more info for function hook_form_system_theme_settings_alter() on api.drupal.org</a>
 
-## Step 3
+## Step 3 - 
+
+Now let's do something cool with the variables!
+
+
+

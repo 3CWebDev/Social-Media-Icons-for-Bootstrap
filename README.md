@@ -4,6 +4,8 @@ These instructions will help with setting up configuration options in the theme 
 
 ## Step 1
 
+Create or update the <strong>theme-settings.php</strong> file in your theme's root directory.
+
 ## Step 2
 
 ## Step 3

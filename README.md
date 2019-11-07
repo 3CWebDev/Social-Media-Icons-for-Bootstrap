@@ -10,6 +10,7 @@ Add <strong>HOOK_form_system_theme_settings_alter()</strong>, where HOOK is the 
 
 <a href="https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Render%21theme.api.php/function/hook_form_system_theme_settings_alter/8.2.x">more info for function hook_form_system_theme_settings_alter() on api.drupal.org</a>
 
+Add required form fields to function. <a href="https://api.drupal.org/api/drupal/developer%21topics%21forms_api_reference.html/7.x">Use Drupal Form API (FAPI) for field specs</a>.
 
 ## Step 2
 

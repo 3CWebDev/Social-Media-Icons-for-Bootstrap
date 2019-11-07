@@ -26,9 +26,11 @@ Add or update the function <strong>THEME_NAME_preprocess_page(&$variables)</stro
 
 &rarr; <a href="https://api.drupal.org/api/drupal/core%21includes%21theme.inc/function/template_preprocess_page/8.2.x">more info for function hook_form_system_theme_settings_alter() on api.drupal.org</a>
 
-## Step 3 - 
+## Step 3 - page.html.twig
 
 Now let's do something cool with the variables!
+
+
 
 
 

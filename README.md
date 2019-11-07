@@ -8,7 +8,7 @@ Create or update the <strong>theme-settings.php</strong> file in your theme's ro
 
 Add <strong>HOOK_form_system_theme_settings_alter()</strong>, where HOOK is the name of your theme.
 
-<a href="https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Render%21theme.api.php/function/hook_form_system_theme_settings_alter/8.2.x">more info</a>
+<a href="https://api.drupal.org/api/drupal/core%21lib%21Drupal%21Core%21Render%21theme.api.php/function/hook_form_system_theme_settings_alter/8.2.x">more info for function hook_form_system_theme_settings_alter() on api.drupal.org</a>
 
 
 ## Step 2

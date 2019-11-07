@@ -16,8 +16,7 @@ function ccc_bs_preprocess_page(&$variables) {
 
   $variables['facebook']    = theme_get_setting('facebook');
   $variables['twitter']     = theme_get_setting('twitter');
-  $variables['youtube']     = theme_get_setting('youtube');
-  $variables['googleplus']  = theme_get_setting('googleplus');
+  $variables['youtube']     = theme_get_setting('youtube');  
   $variables['linkedin']    = theme_get_setting('linkedin');
   $variables['pinterest']   = theme_get_setting('pinterest');
   $variables['instagram']   = theme_get_setting('instagram');

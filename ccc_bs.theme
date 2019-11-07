@@ -20,5 +20,6 @@ function ccc_bs_preprocess_page(&$variables) {
   $variables['linkedin']    = theme_get_setting('linkedin');
   $variables['pinterest']   = theme_get_setting('pinterest');
   $variables['instagram']   = theme_get_setting('instagram');
-  $variables['vimeo']   = theme_get_setting('vimeo');
+  $variables['vimeo']       = theme_get_setting('vimeo');
+  
 }
